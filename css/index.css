@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'font-Bold';
+    src: url(../Fonts/DINNextRoundedLTPro-Bold.otf);
+}
+@font-face{
+    font-family: 'font-Light';
+    src: url(../Fonts/DINNextRoundedLTPro-Light.otf);
+}
+@font-face{
+    font-family: 'font-Medium';
+    src: url(../Fonts/DINNextRoundedLTPro-Medium.otf);
+}
+.font-Bold{
+    font-family: 'font-Bold';
+}
+.font-light{
+    font-family: 'font-Light';
+}
+.font-Medium{
+    font-family: 'font-Medium';
+}
+/************FONTS*****************/
+html,body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    background: rgb(0,120,138);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    width: 12em;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+}
+.telefono img{
+    width: 5mm;
+    padding-top: 1mm;
+}
+.white{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    list-style: none; 
+    margin-right: 40mm;
+}
+nav ul li{
+    color: rgb(255, 205, 2);
+    font-size: 5mm;
+    font-family: 'font-Bold';
+    padding-top: 4mm;
+}
+ul li{
+    padding: 8px;
+}
+
