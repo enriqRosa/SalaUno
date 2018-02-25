@@ -147,20 +147,76 @@ ul li{
 /*************ASIDE ENFERMEDADES**************/
 .enfermedades-title{
     background-color: seagreen;
-    font-size: 6mm;
-    width: 70%;
+    font-size: 5.6mm;
+    width: 75%;
     margin: auto;
+    margin-top: 3.5em;
+    margin-bottom: 1.5em;
+}
+.mexico,.visual,.heart,.person{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 76%;
+    margin-bottom: 1.5em;
 }
 .mexico{
     background-color: salmon;
-    width: 60%;
-    display: flex;
-    margin: auto;
+    
 }
 .mexico img{
     float: left;
+    background-color: darkblue;
 }
 .mexico-info{
     float: right;
     background-color: silver;
+    width: 79.1%;
+    font-size: 4.2mm;
+    margin-right: 8mm;
+}
+.visual{
+    background-color: blueviolet;
+}
+.visual img{
+    float: left;
+    margin-left: 1mm;
+    background-color: darkblue;
+}
+.visual-info{
+    background-color: seagreen;
+    width: 80.5%;
+    font-size: 4.2mm;
+    float: right;
+    margin-right: 5mm;
+}
+.heart{
+    background-color: firebrick;
+}
+.heart img{
+    float: left;
+    background-color: darkblue;
+    margin-left: 2mm;
+}
+.heart-info{
+    background-color: fuchsia;
+    width: 81%;
+    font-size: 4.2mm;
+    float: right;
+    margin-right: 4.6mm;
+}
+.person{
+     background-color: slateblue;
+}
+.person img{
+    float: left;
+    margin-left: 4mm;
+    background-color: darkblue;
+}
+.person-info{
+    background-color: sienna;
+    width: 83%;
+    font-size: 4.2mm;
+    float: right;
+    margin-right: 1mm;
 }
