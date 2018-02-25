@@ -144,3 +144,23 @@ ul li{
     float: right;
     width: 55%;
 }
+/*************ASIDE ENFERMEDADES**************/
+.enfermedades-title{
+    background-color: seagreen;
+    font-size: 6mm;
+    width: 70%;
+    margin: auto;
+}
+.mexico{
+    background-color: salmon;
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+.mexico img{
+    float: left;
+}
+.mexico-info{
+    float: right;
+    background-color: silver;
+}
