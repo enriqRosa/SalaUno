@@ -118,7 +118,7 @@ ul li{
 }
 .que-es img{
     width: 22em;
-    margin-left: 13em;
+    margin-left: 12em;
     margin-top: 4em;
 }
 .bubble-title{
@@ -126,17 +126,17 @@ ul li{
     width: 35%;
     text-align: center;
     font-size: 6.5mm;
-    margin-left: 11.5em;
+    margin-left: 10.5em;
     padding-bottom: 2mm;
 }
 .bubble-info{
     width: 44.5%;
     text-align: center;
     font-size: 5.8mm;
-    margin-left: 11.5em;
+    margin-left: 10.5em;
 }
 .martin img{
-    margin-left: 7.3em;
+    margin-left: 6.5em;
     padding-bottom: 3em;
 }
 .retina-enfermedades{
@@ -226,10 +226,9 @@ ul li{
 }
 /**************END OF SECTION************/
 .enfermedades-comunes{
-    background-color: darkgoldenrod;
+    background-color: #9dd4dc;
 }
 .comunes-title{
-    background-color:firebrick;
     text-align: center;
     color: #00788a;
     font-size: 1.8em;
@@ -238,8 +237,38 @@ ul li{
 .enfermedades-total{
     display: flex;
     justify-content: space-around;
-    background-color: crimson;
 }
 .enfermedad{
-    background-color: lightcoral;
+    width: 23.5%;
+    margin-bottom: 4em;
+}
+.enfermedad-img{
+    width: 52%;
+    margin: auto;
+    margin-top: 10mm;
+}
+.retina-title{
+    font-size: 5mm;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 4mm;
+}
+.comun-info-1,.comun-info-2,.comun-info-3,.comun-info-4{
+    text-align: center;
+    margin: auto;
+    margin-top: 4mm;
+    color: #2a91a0;
+}
+.comun-info-1{
+    width: 95%;
+}
+.comun-info-2{
+    width: 93%;
+}
+.comun-info-3{
+    width: 95%;
+}
+.comun-info-4{
+    width: 94%;
 }
