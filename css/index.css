@@ -258,17 +258,37 @@ ul li{
     text-align: center;
     margin: auto;
     margin-top: 4mm;
-    color: #2a91a0;
+    color: #00788a;
 }
 .comun-info-1{
     width: 95%;
 }
 .comun-info-2{
-    width: 93%;
+    width: 94%;
 }
 .comun-info-3{
     width: 95%;
 }
 .comun-info-4{
     width: 94%;
+}
+/***********FIN DE enfermedades-comunes**************/
+.salaUno-logos{
+    background-color: palevioletred;
+}
+.logos-title{
+    background-color: indigo;
+    font-size: 2.1em;
+    width: 48%;
+    margin: auto;
+    text-align: center;
+    color: #00788a;
+}
+.logos{
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-around;
+}
+.logos-info{
+    background-color: violet;
 }
