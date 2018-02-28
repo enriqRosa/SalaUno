@@ -315,6 +315,76 @@ ul li{
 }
 /********************FIN DE SECTION salaUno-logos***********/
 .no-esperes-mas{
+    opacity: 1;
     background: url('../img/eye-background.svg');
     background-color: #ffd116;
+    display: flex;
+}
+.martin-abajo{
+    width: 45%;
+    float: left;
+}
+.martin-bubble-img{
+    width: 55%;
+    margin-left: 5em;
+    margin-top: 2.5em;
+}
+.martin-bubble-info{
+    width: 48%;
+    text-align: center;
+    color: #00788a;
+    font-size: 6.5mm;
+    margin-top: -7em;
+    margin-left: 4em;
+}
+.martin-azul{
+    width: 30%;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+.agendar-cita{
+    width: 55%;
+    float: right;
+}
+.agendar-text-1{
+    font-size: 2em;
+    width: 60%;
+    margin: auto;
+    margin-top: 3em;
+    color: #00788a;
+}
+.agendar-text-1-1{
+    font-size: 2em;
+    width: 95%;
+    margin: auto;
+    color: #00788a;
+}
+.agendar-text-2{
+    margin: auto;
+    width: 70%;
+    font-size: 5.5mm;
+    margin-top: 2mm;
+    color: #00788a;
+}
+.agendar-button{
+    width: 55%;
+    margin: auto;
+    z-index: 1; 
+    position:relative;
+    margin-top: 2mm;
+}
+.agendar-button-2{
+    margin-top: -8mm;
+     z-index: -1; 
+    position:relative;
+}
+.agenda-img{
+    margin-top: -3.2em;
+    margin-left: 5mm;
+}
+.agenda-text{
+    margin-left: 1.8em;
+    font-size: 7.7mm;
+    margin-top: -1.1em;
+    color: #00788a;
 }
