@@ -323,6 +323,7 @@ ul li{
 .martin-abajo{
     width: 45%;
     float: left;
+    margin-bottom: 1.7em;
 }
 .martin-bubble-img{
     width: 55%;
@@ -387,4 +388,22 @@ ul li{
     font-size: 7.7mm;
     margin-top: -1.1em;
     color: #00788a;
+}
+/**************FIN DE SECTION no-esperes-mas*************/
+.aseguradoras{
+    background-color: salmon;
+}
+.aseguradoras-title{
+    background-color: black;
+    font-size: 9mm;
+    text-align: center;
+    color: #00788a;
+}
+.aseguradoras-logos{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+.logos-parte1{
+    background-color: rebeccapurple;
 }
