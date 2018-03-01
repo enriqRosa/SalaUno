@@ -391,19 +391,58 @@ ul li{
 }
 /**************FIN DE SECTION no-esperes-mas*************/
 .aseguradoras{
-    background-color: salmon;
+    margin-bottom: 4em;
 }
 .aseguradoras-title{
-    background-color: black;
-    font-size: 9mm;
+    font-size: 1.8em;
     text-align: center;
     color: #00788a;
+    margin-top: 3em;
 }
 .aseguradoras-logos{
-    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+}
+.logos-parte1{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -15mm;
+}
+.logos-parte1-2{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -32mm;
+}
+.logos-parte1-3{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -30mm;
+}
+.logos-parte1-4{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -17mm;
+}
+.logos-parte1-5{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -15mm;
+}
+.logos-parte1-6{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -15mm;
+}
+.logos-parte1-7{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.aseguradoras-logos-2{
     display: flex;
     justify-content: space-around;
 }
-.logos-parte1{
-    background-color: rebeccapurple;
+.logos-parte2{
+    margin-top: auto;
+    margin-bottom: auto;
 }
