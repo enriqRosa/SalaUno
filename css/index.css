@@ -415,13 +415,13 @@ ul li{
     margin-left: -15mm;
 }
 .logos-parte1-2{
-    margin-left: -32mm;
+    margin-left: -35mm;
 }
 .logos-parte1-3{
-    margin-left: -30mm;
+    margin-left: -33mm;
 }
 .logos-parte1-4{
-    margin-left: -17mm;
+    margin-left: -18mm;
 }
 .logos-parte1-5{
     margin-left: -15mm;
@@ -429,4 +429,34 @@ ul li{
 .logos-parte2{
     margin-top: auto;
     margin-bottom: auto;
+}
+/******************FIN DE SECTION aseguradoras*****************/
+footer{
+    background-color: #00788a;
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #ffd116;
+}
+.phone{
+    display: flex;
+}
+.rectangle{
+    padding-left: 4mm;
+    margin-top: 0.7em;
+}
+.phone-img{
+    padding-left: 4mm;
+    margin-top: 0.7em;
+}
+.phone-info{
+    font-size: 1.4em;
+    padding-left: 2mm;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #ffd116;
 }
