@@ -80,35 +80,61 @@ ul li{
 }
 .salaUno-texto{
     margin-top: 27mm;
-    /*background-color: darkgreen;*/
     width: 35%;
     margin-left: 13em;
-    
 }
 .texto-1{
     color: rgb(0, 120, 138);
-    /*background-color: salmon;*/
     font-size: 14mm;
     line-height: 15mm;
     width: 85%;
 }
 .texto-2{
     color: #fff;
-    /*background-color: slateblue;*/
     font-size: 8mm;
 }
 .texto-3{
     color: rgb(0, 120, 138);
-    /*background-color: thistle;*/
     font-size: 5.5mm;
     width: 95%;
     margin: auto;
     margin-top: 7mm;
 }
+.upper-top,.agenda img,.button-1-info{
+    z-index: 1; 
+    position:relative;
+}
+.upper-top img {
+    width:43%; 
+    margin-top: 1em;
+    margin-left: 4mm;
+}
+.bottom-side{
+    margin-top: -0.9em;
+    z-index: -1; 
+    position:relative;
+}
+.bottom-side img{
+    width:43%; 
+    margin-left: 4mm;
+}
+.agenda{
+    margin-top: -8mm;
+}
+.agenda img{
+    width: 5%;
+    margin-left: 7mm;
+}
+.button-1-info{
+    color: #00788a;
+    font-size: 6mm;
+    margin-left: 15mm;
+    margin-top: -8.5mm;
+}
 /*************END OF HEADER***************/
 .info-retina{
     background-color: sandybrown;
-    margin-top: 11.9em;
+    margin-top: 8.7em;
     display: flex;
     justify-content: center;
 }
@@ -436,27 +462,22 @@ footer{
     display: flex;
     justify-content: center;
 }
-.copyright{
+.copyright,.phone-info{
     font-size: 1.4em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+.copyright{
     color: #ffd116;
 }
 .phone{
     display: flex;
 }
-.rectangle{
-    padding-left: 4mm;
-    margin-top: 0.7em;
-}
-.phone-img{
+.rectangle,.phone-img{
     padding-left: 4mm;
     margin-top: 0.7em;
 }
 .phone-info{
-    font-size: 1.4em;
     padding-left: 2mm;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
     color: #ffd116;
 }
